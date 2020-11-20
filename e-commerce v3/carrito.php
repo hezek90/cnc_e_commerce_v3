@@ -17,6 +17,10 @@
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<style type="text/css">
 
+		.mar{
+			margin-right: 5px;
+		}
+
 
 		.body-pedidos{
 			width: 100%;
@@ -141,9 +145,12 @@
 		<section class="second_header">
 		<div class="second_bar">
 			<nav>
-			<b><a href="somos.php">¿Quiénes Somos?</b></a>
-			<b><a href="send_custom_pro.php">Conseguir tallados personalizados</b></a>
-			<b><a href="cnc_info.php">¿Qué es una CNC?</b></a>
+			<b><a href="somos.php"><i class="fa fa-graduation-cap" aria-hidden="true"></i>
+			¿Quiénes Somos?</b></a>
+			<b><a href="send_custom_pro.php"><i class="fa fa-envelope" aria-hidden="true"></i>
+			Conseguir tallados personalizados</b></a>
+			<b><a href="cnc_info.php"><i class="fa fa-info" aria-hidden="true"></i>
+			¿Qué es una CNC?</b></a>
 			</nav>
 		</section>
 		</div>
@@ -153,13 +160,14 @@
 			<h2><i class="fa fa-shopping-cart"></i>  Mis Pedidos </h2>
 			<div id="put_info"></div>
 			<div id="put_info2"></div>
-			<button class="proc_buy">Total: &nbsp; $UYU &nbsp;  <div id="total">0</div></button>
+			<button class="proc_buy">Total: &nbsp; $UYU  &nbsp;  <div class="mar" id="total">0</div> <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+</button>
 			
 		</div>
 	</div>
 
 	<footer>
-		<div class="info_footer"> e-mail: <a href="mailto:cnc3drouter@gmail.com">cnc3drouter@gmail.com </a>Dirección:<span> Cándido Zúnin Padilla 391 </span>  </div>
+		<div class="info_footer"> e-mail: <a href="mailto:cnc3drouter@gmail.com">cnc3drouter@gmail.com </a>Dirección:<span> Cándido Zúnin Padilla 391 </span> Teléfono<span> 47721089</span> <a href="https://www.facebook.com/pages/category/E-commerce-Website/Cnc-tallados-personalizados-233915274690980/"> <div class="face"> <i class="fa fa-facebook-official" aria-hidden="true"></i></a></div> </div>
 	</footer>
 	
 	<script type="text/javascript">

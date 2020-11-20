@@ -278,7 +278,20 @@ body {
 			font-family: helvetica;
 		}
 		
+		.face{
+			font-size: 30px;
+		}
 
+		.new b{
+			font-size: 30px;
+			text-shadow: 2px 2px black;
+			color: orangered;
+		}
+
+		.new{
+			text-align: center;
+
+		}
 		.second_bar {
 			color: rgba(0, 0, 0, 1.0);
 			text-shadow: 1px 1px grey;
@@ -326,6 +339,19 @@ body {
 
 
 		@media only screen and (max-width: 780px){
+			.img img{
+				display: none;
+			}
+			.title{
+				display: none;
+			}
+			.equipo img{
+				display: none;
+			}
+
+			.ubi img{
+				width: 100%;
+			}
 			
 			.second_header{
 				margin: 0;
@@ -372,6 +398,9 @@ body {
 		
 
 		@media only screen and (max-width: 350px){
+
+			
+
 			.cuenta{
 				font-size: 18px;
 			}
